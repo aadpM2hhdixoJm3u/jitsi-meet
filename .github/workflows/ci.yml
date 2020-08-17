@@ -3,7 +3,7 @@ name: Simple CI
 on: pull_request
 
 jobs:
-  run-ci:
+  build:
     name: Build Frontend
     runs-on: ubuntu-latest
     steps:
