@@ -1,6 +1,6 @@
 .meetings-list {
     font-size: 14px;
-    color: #253858;
+    color: #000000;
     line-height: 20px;
     text-align: left;
     text-overflow: ellipsis;
@@ -99,7 +99,7 @@
         }
 
         &.with-click-handler:hover {
-            background-color: #75A7E7;
+            background-color: rgb(255, 198, 124);
         }
 
         .add-button {

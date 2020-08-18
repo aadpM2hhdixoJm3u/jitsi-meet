@@ -61,7 +61,7 @@ body.welcome-page {
             max-width: calc(100% - 40px);
             width: $welcomePageEnterRoomWidth;
             z-index: $zindex2;
-            background-color: #fff;
+            background-color: #ff7118;
             padding: $welcomePageEnterRoomPadding;
             border-radius: $welcomePageEnterRoomBorderRadius;
 
@@ -69,7 +69,7 @@ body.welcome-page {
                 width: 100%;
                 padding: $welcomePageEnterRoomInputContainerPadding;
                 text-align: left;
-                color: #253858;
+                color: #32373a;
                 height: fit-content;
 
                 .enter-room-title {
@@ -133,7 +133,7 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #fc873f;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
 
@@ -184,11 +184,10 @@ body.welcome-page {
         min-width: $welcomePageButtonMinWidth;
         height: $welcomePageButtonHeight;
         font-size: $welcomePageButtonFontSize;
-        font-weight: $welcomePageButtonFontWeight;
-        ///////
-        background: #ff0000;
+        font-weight: bold;
+        background: rgb(255, 139, 45);
         border-radius: $welcomePageButtonBorderRadius;
-        color: #FFFFFF;
+        color: #32373a;
         text-align: center;
         vertical-align: middle;
         line-height: $welcomePageButtonLineHeight;
@@ -196,7 +195,7 @@ body.welcome-page {
     }
 
     .welcome-page-settings {
-        color: $welcomePageDescriptionColor;
+        color: #ff7118;
         position: absolute;
         top: 32px;
         right: 32px;
